@@ -2,10 +2,10 @@ def remainder(x):
     """
     Return: x % 2.
     :param x: int.
-    :return: 引数xを2で割った余りを返す.
+    :return: 引数xを2で割った値(整数)を返す.
     """
 
-    return x % 2
+    return x // 2
 
 def quad(x):
     """
