@@ -1,20 +1,28 @@
 def remainder(x):
     """
-    Return: x % 2.
-    :param x: int.
-    :return: 引数xを2で割った値(整数)を返す.
+    引数xを2で割った値(整数)を返す関数
+
+    引数:
+        x : int
+    戻り値:
+        result : int
     """
 
-    return x // 2
+    result = x // 2
+    return result
 
 def quad(x):
     """
-    Return: x * 4.
-    :param x: int.
-    :return: 引数xを4倍した値を返す.
+    引数xを4倍した値を返す関数
+    
+    引数:
+        x : int
+    戻り値:
+        result : int
     """
 
-    return x * 4
+    result = x * 4
+    return result
 
 #main
 n = input("整数を入力してください")

@@ -1,6 +1,11 @@
 def printStr(s):
     """
-    :param s: string.
+    引数sをそのまま画面に表示する関数
+
+    引数:
+        s : string
+
+    戻り値:なし
     """
     print(s)
 
