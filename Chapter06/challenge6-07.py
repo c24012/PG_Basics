@@ -1,2 +1,5 @@
 word = "Hemingway"
-print(word.index("m"))
+try:
+    print(word.index("m"))
+except:
+    print("Not Find")
